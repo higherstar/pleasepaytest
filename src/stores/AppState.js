@@ -50,6 +50,7 @@ function autoSave(store, save) {
         // on the store is updated.
 
         const data = deserialize(State, toJS(store));
+        console.log(data);
         const json = JSON.stringify(serialize(data));
 
         if (!firstRun) {

@@ -4,8 +4,8 @@ import {inject, observer} from "mobx-react";
 
 import "react-select/dist/react-select.css";
 
-@inject("store")
-@observer
+// @inject("store")
+// @observer
 class CustomSelect extends Component {
     constructor(props) {
         super(props);
@@ -70,4 +70,4 @@ class CustomSelect extends Component {
     }
 }
 
-export default CustomSelect;
+export default inject('store')(observer(CustomSelect));
