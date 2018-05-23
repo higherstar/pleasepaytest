@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomSelect component Render 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <inject-CustomSelect-with-store
+    clearable={true}
+    label="Country"
+    searchable={true}
+    store={
+      Object {
+        "countries": Array [
+          Object {
+            "currency": "SEK",
+            "id": "58f9f682d86a9551bbffeaa8",
+            "label": "Sweden",
+            "value": "sweden",
+          },
+          Object {
+            "currency": "NZD",
+            "id": "58f9f682d86a9551bbffeab6",
+            "label": "New Zealand",
+            "value": "new-zealand",
+          },
+          Object {
+            "currency": "EUR",
+            "id": "58f9f682d86a9551bbffea9d",
+            "label": "Netherlands",
+            "value": "netherlands",
+          },
+          Object {
+            "currency": "EUR",
+            "id": "58f9f682d86a9551bbffea92",
+            "label": "Austria",
+            "value": "austria",
+          },
+        ],
+        "currencies": Array [
+          Object {
+            "id": "58f9f682d86a9551bbffeadb",
+            "label": "MXN",
+            "value": "MXN",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffeadc",
+            "label": "NZD",
+            "value": "NZD",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffeae3",
+            "label": "RUB",
+            "value": "RUB",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffead6",
+            "label": "AUD",
+            "value": "AUD",
+          },
+        ],
+        "selectedCountry": "new-zealand",
+        "selectedCurrency": "NZD",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "clearable": true,
+      "label": "Country",
+      "searchable": true,
+      "store": Object {
+        "countries": Array [
+          Object {
+            "currency": "SEK",
+            "id": "58f9f682d86a9551bbffeaa8",
+            "label": "Sweden",
+            "value": "sweden",
+          },
+          Object {
+            "currency": "NZD",
+            "id": "58f9f682d86a9551bbffeab6",
+            "label": "New Zealand",
+            "value": "new-zealand",
+          },
+          Object {
+            "currency": "EUR",
+            "id": "58f9f682d86a9551bbffea9d",
+            "label": "Netherlands",
+            "value": "netherlands",
+          },
+          Object {
+            "currency": "EUR",
+            "id": "58f9f682d86a9551bbffea92",
+            "label": "Austria",
+            "value": "austria",
+          },
+        ],
+        "currencies": Array [
+          Object {
+            "id": "58f9f682d86a9551bbffeadb",
+            "label": "MXN",
+            "value": "MXN",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffeadc",
+            "label": "NZD",
+            "value": "NZD",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffeae3",
+            "label": "RUB",
+            "value": "RUB",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffead6",
+            "label": "AUD",
+            "value": "AUD",
+          },
+        ],
+        "selectedCountry": "new-zealand",
+        "selectedCurrency": "NZD",
+      },
+    },
+    "ref": [Function],
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "clearable": true,
+        "label": "Country",
+        "searchable": true,
+        "store": Object {
+          "countries": Array [
+            Object {
+              "currency": "SEK",
+              "id": "58f9f682d86a9551bbffeaa8",
+              "label": "Sweden",
+              "value": "sweden",
+            },
+            Object {
+              "currency": "NZD",
+              "id": "58f9f682d86a9551bbffeab6",
+              "label": "New Zealand",
+              "value": "new-zealand",
+            },
+            Object {
+              "currency": "EUR",
+              "id": "58f9f682d86a9551bbffea9d",
+              "label": "Netherlands",
+              "value": "netherlands",
+            },
+            Object {
+              "currency": "EUR",
+              "id": "58f9f682d86a9551bbffea92",
+              "label": "Austria",
+              "value": "austria",
+            },
+          ],
+          "currencies": Array [
+            Object {
+              "id": "58f9f682d86a9551bbffeadb",
+              "label": "MXN",
+              "value": "MXN",
+            },
+            Object {
+              "id": "58f9f682d86a9551bbffeadc",
+              "label": "NZD",
+              "value": "NZD",
+            },
+            Object {
+              "id": "58f9f682d86a9551bbffeae3",
+              "label": "RUB",
+              "value": "RUB",
+            },
+            Object {
+              "id": "58f9f682d86a9551bbffead6",
+              "label": "AUD",
+              "value": "AUD",
+            },
+          ],
+          "selectedCountry": "new-zealand",
+          "selectedCurrency": "NZD",
+        },
+      },
+      "ref": [Function],
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`CustomSelect component render Markdown in preview mode 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <inject-CustomSelect-with-store
+    clearable={true}
+    label="Country"
+    searchable={true}
+    store={
+      Object {
+        "countries": Array [
+          Object {
+            "currency": "SEK",
+            "id": "58f9f682d86a9551bbffeaa8",
+            "label": "Sweden",
+            "value": "sweden",
+          },
+          Object {
+            "currency": "NZD",
+            "id": "58f9f682d86a9551bbffeab6",
+            "label": "New Zealand",
+            "value": "new-zealand",
+          },
+          Object {
+            "currency": "EUR",
+            "id": "58f9f682d86a9551bbffea9d",
+            "label": "Netherlands",
+            "value": "netherlands",
+          },
+          Object {
+            "currency": "EUR",
+            "id": "58f9f682d86a9551bbffea92",
+            "label": "Austria",
+            "value": "austria",
+          },
+        ],
+        "currencies": Array [
+          Object {
+            "id": "58f9f682d86a9551bbffeadb",
+            "label": "MXN",
+            "value": "MXN",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffeadc",
+            "label": "NZD",
+            "value": "NZD",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffeae3",
+            "label": "RUB",
+            "value": "RUB",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffead6",
+            "label": "AUD",
+            "value": "AUD",
+          },
+        ],
+        "selectedCountry": "new-zealand",
+        "selectedCurrency": "NZD",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "clearable": true,
+      "label": "Country",
+      "searchable": true,
+      "store": Object {
+        "countries": Array [
+          Object {
+            "currency": "SEK",
+            "id": "58f9f682d86a9551bbffeaa8",
+            "label": "Sweden",
+            "value": "sweden",
+          },
+          Object {
+            "currency": "NZD",
+            "id": "58f9f682d86a9551bbffeab6",
+            "label": "New Zealand",
+            "value": "new-zealand",
+          },
+          Object {
+            "currency": "EUR",
+            "id": "58f9f682d86a9551bbffea9d",
+            "label": "Netherlands",
+            "value": "netherlands",
+          },
+          Object {
+            "currency": "EUR",
+            "id": "58f9f682d86a9551bbffea92",
+            "label": "Austria",
+            "value": "austria",
+          },
+        ],
+        "currencies": Array [
+          Object {
+            "id": "58f9f682d86a9551bbffeadb",
+            "label": "MXN",
+            "value": "MXN",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffeadc",
+            "label": "NZD",
+            "value": "NZD",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffeae3",
+            "label": "RUB",
+            "value": "RUB",
+          },
+          Object {
+            "id": "58f9f682d86a9551bbffead6",
+            "label": "AUD",
+            "value": "AUD",
+          },
+        ],
+        "selectedCountry": "new-zealand",
+        "selectedCurrency": "NZD",
+      },
+    },
+    "ref": [Function],
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "clearable": true,
+        "label": "Country",
+        "searchable": true,
+        "store": Object {
+          "countries": Array [
+            Object {
+              "currency": "SEK",
+              "id": "58f9f682d86a9551bbffeaa8",
+              "label": "Sweden",
+              "value": "sweden",
+            },
+            Object {
+              "currency": "NZD",
+              "id": "58f9f682d86a9551bbffeab6",
+              "label": "New Zealand",
+              "value": "new-zealand",
+            },
+            Object {
+              "currency": "EUR",
+              "id": "58f9f682d86a9551bbffea9d",
+              "label": "Netherlands",
+              "value": "netherlands",
+            },
+            Object {
+              "currency": "EUR",
+              "id": "58f9f682d86a9551bbffea92",
+              "label": "Austria",
+              "value": "austria",
+            },
+          ],
+          "currencies": Array [
+            Object {
+              "id": "58f9f682d86a9551bbffeadb",
+              "label": "MXN",
+              "value": "MXN",
+            },
+            Object {
+              "id": "58f9f682d86a9551bbffeadc",
+              "label": "NZD",
+              "value": "NZD",
+            },
+            Object {
+              "id": "58f9f682d86a9551bbffeae3",
+              "label": "RUB",
+              "value": "RUB",
+            },
+            Object {
+              "id": "58f9f682d86a9551bbffead6",
+              "label": "AUD",
+              "value": "AUD",
+            },
+          ],
+          "selectedCountry": "new-zealand",
+          "selectedCurrency": "NZD",
+        },
+      },
+      "ref": [Function],
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

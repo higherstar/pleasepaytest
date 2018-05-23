@@ -7,7 +7,9 @@
     "start": "webpack-dev-server --config webpack.config.js",
     "build": "rimraf ./dist && webpack --config webpack.config.production.js",
     "preview": "pushstate-server ./dist 1234",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "rootDir": "src/test",
@@ -23,6 +25,7 @@
   "keywords": [],
   "author": "Jimmy Eliasson",
   "license": "MIT",
+  "homepage": "http://higherstar.github.io/pleasepaytest",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-jest": "^22.4.4",
@@ -42,6 +45,7 @@
     "eslint-plugin-react": "^7.8.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.11",
+    "gh-pages": "^1.1.0",
     "html-webpack-plugin": "^3.2.0",
     "identity-obj-proxy": "^3.0.0",
     "image-webpack-loader": "^4.2.0",
